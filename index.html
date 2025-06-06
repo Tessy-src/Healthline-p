@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriVita - Your Health & Nutrition Companion</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <h1 class="logo">HEATHLINE</h1> 
+                <a href="#resources">Resources</a>
+                <a href="#recipes">Recipes</a>
+                <a href="#contact">Contact us</a>
+                <button class="mobile-menu-btn" aria-label="Toggle menu">☰</button>
+            </nav>
+        </div>
+    </header>  
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <h1>Nourish Your Body, Fuel Your Life</h1>
+            <h2>Support for Your Health & Nutrition</h2>
+            <p>Connect with licensed therapists, counselors, and wellness coaches to support your journey.</p>
+            <a href="#" class="btn">Get Started</a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="container">
+            <h1>HOW IT WORKS</h1>
+            <h2>Support for Your Health & Nutrition</h2>
+            <p>Connect with licensed dietitians, nutritionists, and wellness coaches to support your journey to better health.</p>
+            <a href="#" class="btn">Find a Nutritionist</a>
+        </div>
+    </section>
+    
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h1>Services</h1>
+            <h2 class="section-title">We Help You Achieve Your Health Goals</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Personalized Nutrition Plans</h3>
+                    <p>Customized meal plans tailored to your dietary needs, preferences, and health goals.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Weight Management</h3>
+                    <p>Expert guidance to help you achieve and maintain a healthy weight sustainably.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Dietary Counseling</h3>
+                    <p>One-on-one sessions to address specific dietary concerns and conditions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>What Our Clients Are Saying</h2>
+                <p>Positive experiences from people who have transformed their health through our nutrition coaching programs.</p>
+            </div>
+            
+            <div class="testimonials-container">
+                <div class="testimonials-slider">
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">"The nutrition coaching completely changed my relationship with food. I've lost 25 pounds and have more energy than I've had in years!"</p>
+                        <div class="testimonial-author">Sarah K, <span class="testimonial-age">38</span></div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">"I was struggling with digestive issues for years. The personalized meal plans and supplements recommended by my coach made all the difference."</p>
+                        <div class="testimonial-author">Michael T, <span class="testimonial-age">45</span></div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">"As an athlete, I needed a nutrition plan that supported my training. The coaches understood my goals and helped me optimize my performance."</p>
+                        <div class="testimonial-author">Jessica L, <span class="testimonial-age">29</span></div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">"The accountability and education I received helped me make sustainable changes. I've maintained my weight loss for over a year now!"</p>
+                        <div class="testimonial-author">David P, <span class="testimonial-age">52</span></div>
+                    </div>
+                </div>
+                
+                <div class="slider-nav">
+                    <button class="slider-arrow" onclick="scrollTestimonials(-1)">←</button>
+                    <button class="slider-arrow" onclick="scrollTestimonials(1)">→</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="partners-section">
+        <div class="container">
+            <h2 class="section-title">Our Partners</h2>
+            <div class="partners-grid">
+                <div class="partner-card">
+                    <img src="images/Organic Farms.jpg" alt="organic farms logo" class="partner-logo">
+                </div>
+                <div class="partner-card">
+                    <img src="images/Pennington-Partners-Logo.png" alt="pennington partners logo" class="partner-logo">
+                </div>
+                <div class="partner-card">
+                    <img src="images/Nutrition International.png" alt="Nutrition International" class="partner-logo">
+                </div>
+                <div class="partner-card">
+                    <img src="images/health-partners.png" alt="Health-Partners" class="partner-logo">
+                </div>
+                <div class="partner-card">
+                    <img src="images/club pilates.png" alt="club pilates" class="partner-logo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources -->
+    <section class="resources" id="resources">
+        <div class="container">
+            <h2 class="section-title">Resources for Your Health Journey</h2>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <h3>Healthy Recipes</h3>
+                    <p>Discover delicious, nutritious recipes for every dietary need and preference.</p>
+                </div>
+                <div class="resource-card">
+                    <h3>Nutrition Guides</h3>
+                    <p>Learn about macronutrients, micronutrients, and how to build balanced meals.</p>
+                </div>
+                <div class="resource-card">
+                    <h3>Meal Planning</h3>
+                    <p>Tools and templates to help you plan healthy meals for the week.</p>
+                </div>
+                <div class="resource-card">
+                    <h3>Webinars & Workshops</h3>
+                    <p>Live and recorded sessions with nutrition experts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- FAQ -->
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            
+            <div class="faq-item">
+                <div class="faq-question">How do I book a nutrition consultation?</div>
+                <div class="faq-answer">
+                    <p>You can book a consultation directly through our website by clicking "Find a Nutritionist" and selecting your preferred specialist. Alternatively, you can call our office at +1 (555) 123-4567 to schedule an appointment.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Are virtual consultations available?</div>
+                <div class="faq-answer">
+                    <p>Yes! We offer secure video consultations for all our services. After booking, you'll receive a Zoom link to connect with your nutritionist from the comfort of your home.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">What's the difference between a dietitian and nutritionist?</div>
+                <div class="faq-answer">
+                    <p>Dietitians are clinically trained and licensed professionals who can diagnose eating disorders and design meal plans for medical conditions. Nutritionists focus more on general wellness and healthy eating habits. All our professionals are properly certified for their specialties.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Do you provide meal plans for specific conditions?</div>
+                <div class="faq-answer">
+                    <p>Absolutely. Our dietitians specialize in creating personalized meal plans for diabetes, heart health, digestive issues, food allergies, and other medical conditions. Just mention your needs when booking.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">How often should I meet with a nutritionist?</div>
+                <div class="faq-answer">
+                    <p>We typically recommend weekly sessions for the first month, then bi-weekly as you establish new habits. Maintenance consultations are monthly or quarterly depending on your goals.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Do you accept insurance?</div>
+                <div class="faq-answer">
+                    <p>We work with many major insurance providers for medically necessary nutrition therapy. Please contact our office with your insurance details and we'll verify your coverage.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">We're Here to Support You</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Contact Details</h3>
+                    <p>Email: support@Healthline.com</p>
+                    <p>Phone: +254 (702)-828448</p>
+                    <p>P.O. Box 12345-00100, Nairobi, Kenya</p>
+                </div>
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <form>
+                        <input type="email" placeholder="Email">
+                        <textarea placeholder="Message" rows="5"></textarea>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-links">
+                    <h3>Find</h3>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Nutritionists</a></li>
+                        <li><a href="#">Resources</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Connect</h3>
+                    <ul>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">YouTube</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Guidance</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Healthline. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
